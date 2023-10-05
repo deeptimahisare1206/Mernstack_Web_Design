@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Class, Object and Method</title>
+</head>
+<body style="background-color: rgb(175, 215, 176);">
+    <script>
+        //prototype method
+        // class hello{
+        //     // method
+        //     msg(){
+        //         document.write("Hello Welcome to the Coding World!!!😊😊😇😇");
+        //     }
+        // }
+        // let obj = new hello();          //object
+        // obj.msg();
+
+
+        //constructor method
+        class well{
+            constructor(name,lastname){
+                this.mylastname= lastname       // this keyword is used to show the data in other
+                document.write(`My name is ${name} ${lastname}`)
+            }
+            userdata(name){
+                document.write(`My name is ${name} ${this.mylastname}`)
+            }
+            static info(name){
+                document.write(`My name is ${name} `)
+            }
+                //static info1(){
+            //     document.write("Static1 Method")
+            // } static info2(){
+            //     document.write("Static2 Method")
+            // }
+            // static info3(){
+            //     document.write("Static3 Method")
+            // }
+        }
+        let obj = new well("Deep","Mahisare");
+        document.write("<br>");
+        obj.userdata("Netik","mahisare");
+        document.write("<br>");
+        well.info("Deepak");
+    
+        // well.info1();
+        // document.write("<br>");
+        // well.info2();
+        // document.write("<br>");
+        // well.info3();
+        
+    </script>
+    
+</body>
+</html>

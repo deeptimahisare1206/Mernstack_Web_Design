@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+img{
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+body{
+    border: 5px solid black;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction:row;
+    flex-direction:column; 
+     width: 900px;
+    justify-content: space-between;
+    align-items:center;
+   
+}
+
+
+
+.txt1{
+    border: 5px solid black; 
+    background-image: url(imageva/images.jpg);
+    border-radius: 200px;
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt2 {
+    border: 5px dotted black;
+    background-color: rgb(0, 255, 217);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    
+    
+}
+a:hover{
+    color: yellow;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40%;
+}
+
+.txt2 a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.txt3{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+
+}
+
+button :hover{
+    background-color: purple;
+    border-radius: 15%;
+}
+.txt3 button{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    padding: 10px ;
+    border-radius: 15%;
+    background-color: rgb(1, 64, 62);
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+
+}
+ 
+
+
+.card{
+    border: 10px solid orange;
+    width: 250px;
+    
+}

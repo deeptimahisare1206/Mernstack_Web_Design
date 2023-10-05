@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>form</title>
+    <center>FORM</center>
+  </head>
+
+  <body>
+    <form>
+      <br />
+      <table border="3">
+        <tr>
+          <td><label>Name:</label></td>
+          <td><input type="text" placeholder="Enter your name" /><br /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" placeholder="Enter your email" /><br /></td>
+        </tr>
+        <tr>
+          <td>Mobile No.:</td>
+          <td><input type="tel" maxlength="10" /><br /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" /><br /></td>
+        </tr>
+        <tr>
+          <td>Date Time:</td>
+          <td><input type="datetime-local" /><br /></td>
+        </tr>
+
+        <tr>
+          <td>Date:</td>
+          <td><input type="date" /><br /></td>
+        </tr>
+      </table>
+      Gender: <input type="radio" name="gender" />MALE
+      <!-- //the name in the input type radio should be the same.. -->
+      <input type="radio" name="gender" />FEMALE
+      <input type="radio" name="gender" />OTHERS <br />
+      Course:
+      <select>
+        <option value="">Select</option>
+        <option value="B.tech">B.tech</option>
+        <option value="B.com">B.com</option>
+        <option>BBA</option>
+        <option>BCA</option>
+        <option>M.tech</option>
+      </select>
+      <br />
+
+      Apply for all?: <input type="checkbox" /><br />
+      Fov color? <input type="color" />
+      <br />
+
+      <label>Feedback</label><br />
+      <textarea name="Feedback" id="" cols="30" rows="10"></textarea>
+
+      <label>Document</label>
+      <br />
+      <input type="file" />
+
+      <button type="button">SUBMIT</button>
+
+      <button type="reset">CLEAR ALL</button>
+    </form>
+  </body>
+</html>

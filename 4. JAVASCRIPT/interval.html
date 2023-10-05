@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Intervals</title>
+
+    <style>
+        #animation{
+            width: 200px;
+            height: 50px;
+            background-color: red;
+            color: yellow;
+            font-weight: bolder;
+            font-size: large;
+            text-align: center;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #popup{
+            width: 200px;
+            height: 50px;
+            background-color: red;
+            color: yellow;
+            font-weight: bolder;
+            font-size: large;
+            text-align: center;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(126, 220, 251);">
+    
+    <div id="popup">HI DEEP!!!!</div>
+
+ 
+    <div id="animation">WELCOME!!!!</div>
+
+    
+     <button onclick="stop()">stop</button>
+    <!-- <script>
+        var a =0;
+        var id = setInterval(animation, 500);
+        function animation() {
+            a = a +10;
+            if (a==500) {
+                clearInterval(id);
+            }
+            else{
+                document.getElementById("animation").style.margin= a +"px",margin= a +"px";
+            }
+        }
+    </script> -->
+
+
+    <script>
+        var id =setTimeout(animation, 2000);
+        function animation(){
+            document.getElementById("popup").style.width="500px";
+        }
+        function stop(){
+            clearTimeout(id)
+        }
+    </script>
+     
+</body>
+</html>
